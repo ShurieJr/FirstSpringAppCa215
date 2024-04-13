@@ -17,9 +17,10 @@ public class HelloController {
 
     @GetMapping
     public String helloHandler(Model model){
-        model.addAttribute("name" , "Abdullaih ali");
-        model.addAttribute("text" , "Jamhuriya university student");
+        model.addAttribute("name" , "Abdullahi Gedi");
+        model.addAttribute("text" , "Jamhuriya university of science and technology");
         return "Hello";  //view name
     }
 
 }
+
